@@ -1,4 +1,10 @@
-div{
+.container{
     border-style: solid;
-    border-top-left-radius: 0px 100px;
+    padding-bottom: 45%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+body{
+    height: 100%;
 }
