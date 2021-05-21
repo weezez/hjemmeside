@@ -19,7 +19,19 @@ body.home{
     background-position: center;
      
 }
+body.bio{
+    height: 100%;
+    background-size: 120%;
+    background-position: bottom;
+    background-image: url('Bioenergi.jpg')
+}
 
+body.Vind{
+    height: 100%;
+    background-position: bottom;
+    object-fit: cover;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/0a/Sund_mpazdziora.JPG')
+}
 .Overskrift{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 32px;
