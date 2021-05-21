@@ -7,7 +7,7 @@
     background-color: white;
 }
 
-body{
+body.home{
     height: 100%;
      /* Baggrundsbillede*/
      background-image: url('https://piopio.dk/sites/default/files/styles/pio_article_medium/public/wp-content/uploads/2018/04/naturskov-e1525096506805.png?itok=IF3bc368');
