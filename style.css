@@ -1,12 +1,13 @@
 .container{
-    padding-bottom: 45%;
-    margin-left: 5%;
-    margin-right: 5%;
+    padding-bottom: auto;
+    margin-left: 15%;
+    margin-right: 15%;
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: 4cm 4.3cm 3.4cm 3.5cm auto;
     background-color: white;
+    justify-content: center;
+    border: 1px solid;
 }
-
 body.home{
     height: 100%;
      /* Baggrundsbillede*/
@@ -16,21 +17,34 @@ body.home{
      background-repeat: no-repeat;
      background-attachment: fixed;
      background-size: cover;
-    background-position: center;
+     background-position: center;
      
 }
 body.bio{
-    height: 100%;
-    background-size: 120%;
-    background-position: bottom;
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url('Bioenergi.jpg')
 }
 
 body.Vind{
-    height: 100%;
-    background-position: bottom;
-    object-fit: cover;
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/0a/Sund_mpazdziora.JPG')
+}
+
+body.Kerne{
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://i.ytimg.com/vi/7M1HfjxC9kY/maxresdefault.jpg')
+}
+body.Vand{
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://www.experimentarium.dk/wp-content/uploads/2010/05/Vandkraft.jpg');
 }
 .Overskrift{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -39,9 +53,6 @@ body.Vind{
     color: red
 }
 
-.wraper{
-    position: relative;
-    width: 100%;
-    max-width: auto;
-    margin: 50px auto;
+.Vand{
+    font-size: 28px;
 }
