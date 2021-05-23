@@ -1,9 +1,11 @@
-.container{
+a:link {text-decoration: none;}
+.Menu{
     padding-bottom: auto;
+    font-size: 28px;
     margin-left: 15%;
     margin-right: 15%;
     display: grid;
-    grid-template-columns: 4cm 4.3cm 3.4cm 3.5cm auto;
+    grid-template-columns: 4cm 4cm 4.3cm 3.4cm 3.5cm auto;
     background-color: white;
     justify-content: center;
     border: 1px solid;
@@ -17,17 +19,18 @@ body.home{
      background-repeat: no-repeat;
      background-attachment: fixed;
      background-size: cover;
-     background-position: center;
-     
+     background-position: center;     
 }
 body.bio{
     background-position: unset;
+    font-size: 28px;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('Bioenergi.jpg')
 }
 
 body.Vind{
+    font-size: 28px;
     background-position: unset;
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,7 +41,7 @@ body.Kerne{
     background-position: unset;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('https://i.ytimg.com/vi/7M1HfjxC9kY/maxresdefault.jpg')
+    background-image: url('Kraftværk.jpg')
 }
 body.Vand{
     background-position: unset;
@@ -46,13 +49,30 @@ body.Vand{
     background-size: cover;
     background-image: url('https://www.experimentarium.dk/wp-content/uploads/2010/05/Vandkraft.jpg');
 }
+
+body.Sol{
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://cdn.ebs.newsner.com/wp-content/uploads/sites/17/2017/09/panda.jpg');
+}
 .Overskrift{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 32px;
     text-align: center;
     color: red
 }
-
-.Vand{
-    font-size: 28px;
+.Text-sol{
+    justify-content: center;
+    margin-top: 5cm;
+    margin-right: 10cm;
+    margin-left: 10cm;
+    text-align: center;
+    grid-template-columns: 20cm;
+    background-color:white;
+    display: grid;
+    padding: 4cm;
+    color: black;
+    font-size: 14;
+    opacity: 0.1;
 }
