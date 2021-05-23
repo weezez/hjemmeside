@@ -105,3 +105,8 @@ body.Sol{
 .Vand h1 {
     color: blue;
 }
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
